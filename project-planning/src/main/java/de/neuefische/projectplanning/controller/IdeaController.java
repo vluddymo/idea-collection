@@ -14,6 +14,7 @@ public class IdeaController {
 
     private final IdeaService ideaService;
 
+
     @Autowired
     public IdeaController(IdeaService ideaService) {
         this.ideaService = ideaService;
