@@ -60,7 +60,7 @@ jobs:
         uses: actions/download-artifact@v2
         with:
           name: idea-collection.jar
-          path: idea-collection/target
+          path: project-planning/target
       - name: login to heroku
         env:
           HEROKU_API_KEY: ${{ secrets.HEROKU_API_KEY }}
