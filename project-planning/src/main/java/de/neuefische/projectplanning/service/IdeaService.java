@@ -6,8 +6,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import de.neuefische.projectplanning.model.Idea;
 
-import java.util.List;
-
 @Service
 public class IdeaService {
     private final IdeaMongoDb ideaDb;
